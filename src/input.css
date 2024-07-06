@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", Courier, monospace;
+  font-size: 15px;
+  background: hsl(0, 0%, 98%);
+  
+}
+
+/*custom colors*/
+.c-red {
+  color: hsl(0, 78%, 62%);
+}
+
+.c-cyan {
+  color: hsl(180, 62%, 55%);
+}
+
+.c-orange {
+  color: hsl(34, 97%, 64%);
+}
+
+.c-blue {
+  color: hsl(212, 86%, 64%);
+}
+
+.c-very-dark-blue {
+  color: hsl(234, 12%, 34%);
+}
+
+.c-grayish-blue-font {
+  color: hsl(229, 6%, 66%);
+}
+.c-grayish-blue-bg {
+	background: hsl(229, 6%, 66%);
+}
+
+.c-very-light-gray {
+  background: hsl(0, 0%, 98%);
+}
